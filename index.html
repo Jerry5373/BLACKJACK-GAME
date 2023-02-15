@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blackjack Game</title>
+        <link rel="stylesheet" href="blackjack-game.css">
+    </head>
+    <body>
+        <div id="container"></div>
+        <h1>Blackjack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards: </p>
+        <p id="sum-el">Sum: </p>
+        <button id="start-game-btn" onclick="startGame()">START GAME</button>
+        <button id="new-card" onclick="newCard()">NEW CARD</button>
+        <p id="player-el"></p>
+        <p id="greeting-el"></p>
+        <input type="text" id="user-name" placeholder="Player type your name here">
+        <input type="button" onclick="submitUser()" id="submit-btn" value="CHANGE USER">
+        <button id="EndGame-btn" onclick="endGame()">END GAME</button>
+        <!-- <input type="button" value="GAME HISTORY" id="game-history-btn" onclick="gameHistory()"> -->
+        <script src="blackjack-game.js"></script>
+    </body>
+</html>

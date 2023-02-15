@@ -1,0 +1,106 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background: darkgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 10px;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 50px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+#greeting-el {
+    color: yellow;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 0;
+}
+
+button {
+    background-color: goldenrod;
+    border: none;
+    color: darkgreen;
+    font-size: 20px;
+    padding: 15px;
+    width: 300px;
+    font-weight: bold;
+    border-radius: 2px;
+    display: block;
+    margin-top: 10px;
+}
+
+button:active {
+    border: solid yellow 2px;
+    width: 298px;
+    padding: 13px;
+}
+
+div {
+    background-color: rgba(6, 26, 2, 0.7);
+    position: fixed;
+    padding: 10vh 10vw;
+    color: white;
+    display: none;
+    flex-direction: column;
+}
+
+
+div #gameover {
+    font-size: 40px;
+    color: red;
+}
+
+div #result {
+    text-decoration: underline;
+    color: orange;
+}
+
+#user-name {
+    z-index: 1;
+    background-color: transparent;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 0.9em;
+}
+
+#submit-btn {
+    font-size: 1em;
+    background-color: transparent;
+    color: lime;
+    text-shadow: 2px px 2px darkgreen;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 8px;
+    box-shadow: 
+    inset -8px -8px 8px 0 rgba(93, 253, 0, 0.25),
+    inset 8px 8px 8px rgb(38, 116, 38),
+    -8px -8px 24px 0 rgb(38, 116, 38),
+    8px 8px 24px 0 rgba(37, 245, 30, 0.4);
+    margin-bottom: 15px;
+
+}
+#submit-btn:active {
+    box-shadow: 
+    inset -8px -8px 8px 0 rgba(91, 255, 50, 0.25),
+    inset 8px 8px 8px rgb(26, 139, 26),
+    -8px -8px 24px 0 rgb(47, 182, 47),
+    8px 8px 24px 0 rgba(99, 250, 94, 0.4);
+}
+
